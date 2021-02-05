@@ -1,0 +1,11 @@
+.sso-container {
+  min-width: 350px;
+}
+
+.sso-logo {
+  height: 200px;
+}
+
+#loading_spinner {
+  display: inline-block;
+}

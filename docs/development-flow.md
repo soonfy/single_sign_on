@@ -32,3 +32,8 @@ node_modules/
 5. 添加 README.md 说明文件
 
 6. 添加 LICENSE 版权文件
+
+## 资源
+
+1. [资源库](https://www.bootcss.com/)
+2. [bootcdn](https://www.bootcdn.cn/)

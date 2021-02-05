@@ -1,0 +1,31 @@
+<%- include('./layout/header') %>
+
+<link href='/stylesheets/sso_access.css' rel='stylesheet'>
+<div class="container sso-container">
+  <div class="sso-logo"></div>
+  <form id="sso-form">
+    <div class="form-group row">
+      <label for="sso-username" class="control-form-label col-sm-2">用户名</label>
+      <div class="col-sm-10 col-md-8">
+        <input type="text" name="sso-username" id="sso-username" placeholder="请输入用户名..." class="form-control" autofocus="autofocus">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="sso-password" class="control-form-label col-sm-2">密码</label>
+      <div class="col-sm-10 col-md-8">
+        <input type="password" name="sso-password" id="sso-password" class="form-control">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-12 col-sm-10 col-md-8 offset-sm-2">
+        <button type="button" class="btn btn-primary btn-block" id="sign-up-button">
+          <span id="loading_spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          注册
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+<script src='/javascripts/sso_access.js'></script>
+
+<%- include('./layout/footer') %>
